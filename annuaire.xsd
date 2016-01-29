@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<xs:schema xmlns:celebrite="http://www.ensg.eu/celebrite" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ensg.eu/celebrite" elementFormDefault="qualified" version="0.0.1">
+
+	<xs:element name="Annuaire">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="celebrite:Personne" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="celebrite:Epoque" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="quoi" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+		<xs:element name="Personne">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="fonction" type="xs:string"/>
+				</xs:sequence>
+				<xs:attribute name="nom" type="xs:string"/>
+				<xs:attribute name="prenom" type="xs:string"/>
+				<xs:attribute name="epoque" type="xs:IDREF"/>
+			</xs:complexType>
+		</xs:element>
+
+		<xs:element name="Epoque">
+			<xs:complexType>
+				<xs:attribute name="nom" type="xs:string"/>
+				<xs:attribute name="date" type="xs:string"/>
+			</xs:complexType>
+		</xs:element>
+
+</xs:schema>

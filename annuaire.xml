@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Annuaire quoi="celebrite"
+	xmlns="http://www.ensg.eu/celebrite"
+	xmlns:celebrite="http://www.ensg.eu/celebrite"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ensg.eu/celebrite annuaire.xsd">
+
+	<Personne nom="Einstein" prenom="Albert" epoque="epoque_moderne">
+		<fonction>Physicien</fonction>
+	</Personne>
+
+	<Personne nom="Bhor" prenom="Niels" epoque="epoque_moderne">
+		<fonction>Physicien</fonction>
+	</Personne>
+
+	<Personne nom="Galileo" prenom="Galilei" epoque="epoque_moderne">
+		<fonction>Physicien</fonction>
+	</Personne>
+	
+	<Personne nom="Curie" prenom="Marie" epoque="epoque_moderne">
+		<fonction>Physicien</fonction>
+	</Personne>
+	
+	<Personne nom="Poincaré" prenom="Henri" epoque="epoque_moderne">
+		<fonction>Mathématicien</fonction>
+	</Personne>
+
+	<Personne nom="Descartes" prenom="René" epoque="epoque_moderne">
+		<fonction>Mathématicien</fonction>
+	</Personne>
+
+	<Personne nom="Pythagore" prenom="René" epoque="antiquite">
+		<fonction>Mathématicien</fonction>
+	</Personne>
+
+	<Epoque nom="antiquite" date="avant JC"/>
+
+	<Epoque nom="epoque_moderne" date="après JC"/>
+
+</Annuaire>
