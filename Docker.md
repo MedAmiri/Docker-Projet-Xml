@@ -29,7 +29,7 @@ RUN chmod +x /home/Validator.sh
 après l'exécution de notre dockerfile, on vérifie la création de notre image, et on push l'image dans les dépots de docker
 - docker login 
 - docker push medamiri/xmlvalidator
-![push](push.png)
+![push](pull.png)
 ------------------------------------------
 ## le teste de validation d'un ficher XML
 ------------------------------------------
